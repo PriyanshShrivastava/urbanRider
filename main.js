@@ -16,6 +16,7 @@ navLinks.forEach(function (link) {
   link.addEventListener("click", function () {
     if (headerMain.classList.contains("nav-open")) {
       headerMain.classList.remove("nav-open");
+      document.documentElement.style.overflowY = "visible";
     }
   });
 });
