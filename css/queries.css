@@ -163,10 +163,6 @@
     column-gap: 1.2rem;
     row-gap: 1.8rem;
   }
-
-  .pricing-img img {
-    z-index: -1;
-  }
   /* Mobile navigation */
 
   .btn-mobile-nav {
@@ -183,7 +179,7 @@
     height: 100vh;
     justify-content: center;
     opacity: 0;
-    transition: all 1s;
+    transition: all 0.5s;
 
     display: flex;
     align-items: center;
