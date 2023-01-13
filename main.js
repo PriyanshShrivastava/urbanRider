@@ -2,7 +2,13 @@ const mobileNav = document.querySelector(".btn-mobile-nav");
 const headerMain = document.querySelector("#header-section");
 
 mobileNav.addEventListener("click", function () {
+  console.log("hello");
   headerMain.classList.toggle("nav-open");
+  if (headerMain.classList.contains("nav-open")) {
+    document.documentElement.style.overflowY = "hidden";
+  } else {
+    document.documentElement.style.overflowY = "visible";
+  }
 });
 
 const navLinks = document.querySelectorAll(".main-nav-link");

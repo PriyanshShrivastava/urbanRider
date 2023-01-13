@@ -164,6 +164,9 @@
     row-gap: 1.8rem;
   }
 
+  .pricing-img img {
+    z-index: -1;
+  }
   /* Mobile navigation */
 
   .btn-mobile-nav {

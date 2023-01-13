@@ -607,7 +607,6 @@ header {
 
 .pricing-img {
   max-width: 165px;
-  filter: drop-shadow(0 5px 5px #555);
   padding: 2rem 0;
   transition: all 0.5s;
 }
