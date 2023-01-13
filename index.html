@@ -540,13 +540,14 @@
               Our team will contact you and guide with your first booking. You
               can get help by filling this contact detail form.
             </p>
-            <form action="#" class="cta-form">
+            <form class="cta-form" name="contact-form" netlify>
               <div>
                 <label for="full-name">Full Name:</label>
                 <input
                   type="text"
                   id="full-name"
                   placeholder="Priyansh Shrivastava"
+                  name="full-name"
                   required
                 />
               </div>
@@ -556,6 +557,7 @@
                   type="email"
                   id="email"
                   placeholder="urbanRider@gmail.com"
+                  name="email"
                   required
                 />
               </div>
@@ -566,18 +568,29 @@
                   name="Phone Number"
                   id="phone-no"
                   placeholder="999999999"
+                  name="phone-number"
                   required
                 />
               </div>
               <div>
                 <label for="city">Pick up a City</label>
-                <input type="text" id="city" placeholder="Hyderabad" required />
+                <input
+                  type="text"
+                  id="city"
+                  placeholder="Hyderabad"
+                  name="city"
+                  required
+                />
               </div>
               <div>
                 <label for="vehicle-dropdown" class="select-label"
                   >Vehicle type:</label
                 >
-                <select name="vehicle-type" id="vehicle-dropdown">
+                <select
+                  name="vehicle-type"
+                  id="vehicle-dropdown"
+                  name="vehicle-type"
+                >
                   <option value="">Select anyone:</option>
                   <option value="Moped">Moped</option>
                   <option value="Sport Bikes">Sport Bikes</option>
